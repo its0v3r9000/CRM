@@ -81,6 +81,7 @@ class Rolodex
         puts "Sorry, please enter the contact again"
         modify_contact
       end
+      puts "----------[END]----------"
   end
 
   #-------- [3] Delete contact ---------
@@ -98,6 +99,7 @@ class Rolodex
         puts "Input Error"
         main_menu
       end
+      puts "----------[END]----------"
   end
 
 
@@ -118,6 +120,7 @@ class Rolodex
       puts "----------[#{x.id}]-----------"
       puts x
     end
+    puts "----------[END]----------"
   end
 
   def display_by_attribute
@@ -145,6 +148,7 @@ class Rolodex
         puts "Incorrect input"
         display_by_attribute
       end
+      "----------[END]----------"
     end
   end
 end

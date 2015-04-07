@@ -79,7 +79,7 @@ class Rolodex
           end
       else
         puts "Sorry, please enter the contact again"
-        contact = display_contact
+        modify_contact
       end
   end
 
@@ -115,8 +115,8 @@ class Rolodex
   def display_all
     puts "The contacts are:"
     @contacts.each do |x|
-      contact = @contacts
-      puts contact
+      puts "----------[#{x.id}]-----------"
+      puts x
     end
   end
 

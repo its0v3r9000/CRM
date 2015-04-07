@@ -9,7 +9,7 @@ class Contact
 	end
 
 	def to_s
-    s = "\nContact ID = #{id} \n"
+    s =  "Contact ID = #{id} \n"
 		s += "First Name: #{@first_name} \n"
     s += "Last Name: #{@last_name} \n"
     s += "Email: #{@email} \n"

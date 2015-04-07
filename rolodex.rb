@@ -130,12 +130,16 @@ class Rolodex
 
     @contacts.each do |x|
       if attribute == 1
+        print "#{x.id}: "
         puts x.first_name
       elsif attribute == 2
+        print "#{x.id}: "
         puts x.last_name
       elsif attribute == 3
+        print "#{x.id}: "
         puts x.email
       elsif attribute == 4
+        print "#{x.id}: "
         puts x.note
       else
         puts "Incorrect input"
